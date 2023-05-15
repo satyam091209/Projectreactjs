@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { Bar } from 'react-chartjs-2';
 import { CSVLink } from 'react-csv';
-import { Chart, registerables } from 'chart.js';
-Chart.register(...registerables);
 
 const App = () => {
   const [wordCounts, setWordCounts] = useState([]);
